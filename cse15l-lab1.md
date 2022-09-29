@@ -103,10 +103,26 @@ This essnetially compiled the file and then runs the class file that is generate
 
 ![img](client-ssh-java.png)
 
-### Step 5:
-### Step 6:
-### Step 7:
-### Step 8:
+### Step 5: Setting an SSH Key
+This one is pretty sequential:
+- On your client, run ```ssh-keygen```. This will generate a prompt for a password
+![g](ssh-keys-gen.png)
+- Enter your password to generate a key
+- log onto the client
+- use: ```mkdir .ssh``` on the server and then ```logout```.
+- use scp as seen above to move the keygen onto the remote server onto the correct directory
+- Hint: using ```~``` makes it easier as it uses your home directory.
 
-### Summary, Conclusion
- talk about doing things faster (increased workflow)
+### Step 6: Optimizing Remote Running
+Lastly, now focus on how you can optimize running your program.
+- Using the up key on your keyboard to return to a previously used command is extremely helpful.
+- having the password on a clipboard 
+- use `cp` to run multiple commands at the same time with semi-colons
+- use `"ls"` after a `ssh` such as:
+```
+$ ssh cs15lfa22@ieng6.ucsd.edu "ls"
+```
+- memorize as many basic commands as you can see, like the ones above!
+![cmd](run-extra-cmds.png) 
+
+Example seen above. It runs ls as soon as it connects to the SSH server
