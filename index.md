@@ -12,8 +12,12 @@ i am so hungry right now
 
 **i want a burger**
 
-[page website](https://kyle-trinh-ucsd.github.io/cse15l-lab-reports/)
+[Page Website](https://kyle-trinh-ucsd.github.io/cse15l-lab-reports/)
+___
+[Lab 0](https://kyle-trinh-ucsd.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 
-[lab page](https://kyle-trinh-ucsd.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
+[Lab 1 - 9/28/22](https://kyle-trinh-ucsd.github.io/cse15l-lab-reports/cse15l-lab1.html)
 
+Lab 2
 
+Lab 3

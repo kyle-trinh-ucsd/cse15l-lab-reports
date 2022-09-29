@@ -1,4 +1,6 @@
 ## Week 1 - September 28, 2022
+___
+[Go Back](https://kyle-trinh-ucsd.github.io/cse15l-lab-reports/)
 
 ### Lab Objectives:
 - Using VSCode
