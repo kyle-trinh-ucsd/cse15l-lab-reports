@@ -1,3 +1,4 @@
+## Part 1
 ```Java
 import java.io.IOException;
 import java.net.URI;
@@ -57,3 +58,40 @@ class SearchEngine {
     }
 }
 ```
+
+![Screenshot 1](search-engine-index.png)
+
+The handleRequest method is called to display the web server page. It calls on the Sever file to also run: URLHandler, and ServerHttpHandler. These allow browsers to connect to the server running the web page and access its contents. 
+
+There are no values inputed yet, so the string array has no strings inside of it to work. However, the port number allows the browser to connect to a specific port of the ieng6-203 server.
+
+If the port number changed, the browser would not be able to connect to the web page (unless if someone was using the port for something else). It would only work with my webpage if the port number was the one I started the server with. 
+
+![Screenshot 2](lab2-pictures/search-engine-add-apple.png)
+
+In this method, the handleRequest method is called again when the /add page is accessed. This means that it added an apple to an arrayList of Strings storing the added strings. If the page is refreshed, the handleRequest method is called again and will keep adding more "apple" to the stringStore as it is repeatedly called.
+
+The value added is "apple". It is a string get used an ArrayList method to append it to the stringStore. When the main index page is accessed again, it will show how the string has been added to it.
+
+If the String changed from to say, "orange" it would add orange instead of apple to the stringStore ArrayList. On the index page it would display a different set of strings. Since it adds at the end of the ArrayList, the time of the request is very low. 
+
+![S2 Example](lab2-pictures/se-add-many.png)
+
+See above for example.
+
+![Screenshot 3](lab2-pictures/se-search-orange.png)
+
+In this screenshot, the handleRequest method is called again but instead, it calls the query method within it. It then loops through the stringStore arrayList finding the strings that match with the query.
+
+The value, "orange" tells the query operator to find all words containing the characters "orange" in order. If it was shortened to "e", it would output all words in the stringStore with the string "e" inside of it, omitting word without an "e".
+
+If this value were to change, it would then find all strings that contain the given string inside of it. However, it would not change the time of request unless the stringStore has many, many, many items.
+
+## Part 2
+
+### Array Methods
+
+
+### List Methods
+### Linked List Methods
+### File Methods
