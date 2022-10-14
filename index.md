@@ -18,6 +18,6 @@ ___
 
 [Lab 1 - 9/28/22](https://kyle-trinh-ucsd.github.io/cse15l-lab-reports/cse15l-lab1.html)
 
-Lab 2
+[Lab 2](lab2.md)
 
 Lab 3
