@@ -59,7 +59,7 @@ class SearchEngine {
 }
 ```
 
-![Screenshot 1](search-engine-index.png)
+![Screenshot 1](lab2-pictures/search-engine-index.png)
 
 The handleRequest method is called to display the web server page. It calls on the Sever file to also run: URLHandler, and ServerHttpHandler. These allow browsers to connect to the server running the web page and access its contents. 
 
