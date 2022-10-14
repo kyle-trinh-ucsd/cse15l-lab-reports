@@ -91,7 +91,36 @@ If this value were to change, it would then find all strings that contain the gi
 
 ### Array Methods
 
+#### reverseInPlace(): 
+
+![](lab3-pics/lab3-test-reverse-inplace.png)
+
+Test that broke the code.
+
+![](lab3-pics/lab3-array-fail.png)
+
+Failing Test Output.
+
+![](lab3-pics/lab3-array-fix.png)
+
+The code fix that was needed.
+
+ReverseInPlace lost the value whenever it switched, so the index value was lost, and thus it did not reverse correctly. This would then cause a symptom that the test caught and showed in the terminal.
 
 ### List Methods
-### Linked List Methods
-### File Methods
+
+#### filter(List<String> list, StringChecker sc)
+
+![](lab3-pics/lab3-list-test.png)
+
+This was the test that broke the code for the filter method. It was not filtering properly.
+
+![](lab3-pics/lab3-list-fail.png)
+
+The failing output in the terminal by JUnit.
+
+![](lab3-pics/lab3-list-code.png)
+
+The code that fixed the bug.
+
+For this particular unit, the bug was caused by the the fact the the result.add method was adding the checked result to the front of the array. However, the instructions required the output to be in order as found in the list. Thus, by removing the "0," and using the overloaded .add ArrayList method, the bug was fixed. 
