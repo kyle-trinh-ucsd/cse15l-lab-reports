@@ -4,10 +4,6 @@ Hello world!
 
 *no*
 
-space needed 
-
-m^o
-
 i am so hungry right now 
 
 **i want a burger**
@@ -23,3 +19,5 @@ ___
 [Week 5](https://kyle-trinh-ucsd.github.io/cse15l-lab-reports/week5-report.html)
 
 [Week 7](https://kyle-trinh-ucsd.github.io/cse15l-lab-reports/week7-report.html)
+
+[Week 9](https://kyle-trinh-ucsd.github.io/cse15l-lab-reports/week9-report.html))
